@@ -11,19 +11,7 @@ annual data reports, presentations, and other outreach documents.
 
 ## This code is primarally maintained by:
 
-**Emily Markowitz** (Emily.Markowitz AT noaa.gov;
-[@EmilyMarkowitz-NOAA](https://github.com/EmilyMarkowitz-NOAA))
-
-\[Previously\] **Liz Dawson** (Liz.Dawson AT noaa.gov;
-[@liz-dawson-NOAA](https://github.com/liz-dawson-NOAA))
-
-Alaska Fisheries Science Center,
-
-National Marine Fisheries Service,
-
-National Oceanic and Atmospheric Administration,
-
-Seattle, WA 98115
+**\[Person Person\]** (Person.Person AT noaa.gov)
 
 # Table of contents
 
@@ -141,23 +129,61 @@ author can refer to it in the source file.
 
 ## Latest citations
 
-- **Aleutian Islands (AI)** (Von Szalay et al., 2023)
-  - Triennial (1990s)/Biennial since 2000 in even years
-  - Modified Index-Stratified Random of Successful Stations Survey
-    Design
-- **Eastern Bering Sea Slope (BSS)** (Hoff, 2016)
-  - Intermittent (funding dependent)
-  - Modified Index-Stratified Random of Successful Stations Survey
-    Design
-- **Eastern Bering Sea Shelf (EBS)** (Markowitz et al., 2024)
-  - Annual
-  - Fixed stations at center of 20 x 20 nm grid
-- **Gulf of Alaska (GOA)** (Siple et al., 2024)
-  - Triennial (1990s)/Biennial since 2001 in odd years
-  - Stratified Random Survey Design
-- **Northern Bering Sea (NBS)** (Markowitz et al., 2024)
-  - Biennial/Annual
-  - Fixed stations at center of 20 x 20 nm grid
+Fisheries (2025b); Fisheries (2025a); Fisheries (2025c); Fisheries
+(2025d); Fisheries (2025e); Fisheries (2025f)
+
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0" line-spacing="2">
+
+<div id="ref-IEACaliforniaCurrent" class="csl-entry">
+
+Fisheries, N. (2025a). California current reports \| integrated
+ecosystem assessment. In *NOAA*.
+<https://www.integratedecosystemassessment.noaa.gov/regions/california-current/california-current-reports>
+
+</div>
+
+<div id="ref-IEAAlaska" class="csl-entry">
+
+Fisheries, N. (2025b). Ecosystem status reports for the gulf of alaska,
+bering sea and aleutian islands. In *NOAA*.
+<https://www.fisheries.noaa.gov/alaska/ecosystems/ecosystem-status-reports-gulf-alaska-bering-sea-and-aleutian-islands>
+
+</div>
+
+<div id="ref-IEAGulfOfAmerica" class="csl-entry">
+
+Fisheries, N. (2025c). Gulf of america reports \| integrated ecosystem
+assessment. In *NOAA*.
+<https://www.integratedecosystemassessment.noaa.gov/regions/gulf-mexico/gulf-mexico-ecosystem-status-reports#gulf-of-mexico-ecosystem-status-report>
+
+</div>
+
+<div id="ref-IEAHawaii" class="csl-entry">
+
+Fisheries, N. (2025d). Hawai’i reports \| integrated ecosystem
+assessment. In *NOAA*.
+<https://www.integratedecosystemassessment.noaa.gov/regions/hawaii/hawaii-ecosystem-status-reports>
+
+</div>
+
+<div id="ref-EIANortheast" class="csl-entry">
+
+Fisheries, N. (2025e). Northeast US reports \| integrated ecosystem
+assessment. In *NOAA*.
+<https://www.integratedecosystemassessment.noaa.gov/regions/northeast/northeast-ecosystem-status-reports>
+
+</div>
+
+<div id="ref-IEASoutheast" class="csl-entry">
+
+Fisheries, N. (2025f). Southeast US reports \| integrated ecosystem
+assessment. In *NOAA*.
+<https://www.integratedecosystemassessment.noaa.gov/regions/gulf-mexico/south-atlantic-ecosystem-status-report>
+
+</div>
+
+</div>
 
 ## Sourcing directly from github
 
@@ -255,14 +281,6 @@ file and… it only kind of works.</figcaption>
 Use the `[@...]` notation in your `rmarkdown` or `quarto` call a
 reference number for a citation.
 
-``` r
-For example, here are **Annual Bering Sea Data Report** [@2022NEBS2023; @GOA2018; @AI2022; @RN979]. 
-```
-
-*Which renders as:* “For example, here are **Annual Bering Sea Data
-Report** (Hoff, 2016; Markowitz et al., 2023; Von Szalay et al., 2023;
-Von Szalay and Raring, 2018).”
-
 Naturally, without writing anything else, references will appear at the
 of the document. If you want them to render at a specific place in your
 document, call this code `<div id="refs"></div>` which renders as:
@@ -270,61 +288,51 @@ document, call this code `<div id="refs"></div>` which renders as:
 <div id="refs" class="references csl-bib-body hanging-indent"
 entry-spacing="0" line-spacing="2">
 
-<div id="ref-RN979" class="csl-entry">
+<div id="ref-IEACaliforniaCurrent" class="csl-entry">
 
-Hoff, G. R. (2016). *Results of the 2016 eastern Bering Sea upper
-continental slope survey of groundfishes and invertebrate resources*
-(NOAA Tech. Memo. NOAA-AFSC-339). U.S. Dep. Commer.
-<https://doi.org/10.7289/V5/TM-AFSC-339>
-
-</div>
-
-<div id="ref-2022NEBS2023" class="csl-entry">
-
-Markowitz, E. H., Dawson, E. J., Anderson, A. B., Rohan, S. K.,
-Charriere, N. E., Prohaska, B. K., and Stevenson, D. E. (2023). *Results
-of the 2022 eastern and northern Bering Sea continental shelf bottom
-trawl survey of groundfish and invertebrate fauna* (NOAA Tech. Memo.
-NMFS-AFSC-469; p. 213). U.S. Dep. Commer.
-<https://doi.org/10.25923/rt50-th19>
+Fisheries, N. (2025a). California current reports \| integrated
+ecosystem assessment. In *NOAA*.
+<https://www.integratedecosystemassessment.noaa.gov/regions/california-current/california-current-reports>
 
 </div>
 
-<div id="ref-2023NEBS" class="csl-entry">
+<div id="ref-IEAAlaska" class="csl-entry">
 
-Markowitz, E. H., Dawson, E. J., Wassermann, S., Anderson, A. B., Rohan,
-S. K., Charriere, B. K., and Stevenson, D. E. (2024). *Results of the
-2023 eastern and northern Bering Sea continental shelf bottom trawl
-survey of groundfish and invertebrate fauna* (NOAA Tech. Memo.
-NMFS-AFSC-487; p. 242). U.S. Dep. Commer.
-<https://doi.org/10.25923/2mry-yx09>
+Fisheries, N. (2025b). Ecosystem status reports for the gulf of alaska,
+bering sea and aleutian islands. In *NOAA*.
+<https://www.fisheries.noaa.gov/alaska/ecosystems/ecosystem-status-reports-gulf-alaska-bering-sea-and-aleutian-islands>
 
 </div>
 
-<div id="ref-GOA2023" class="csl-entry">
+<div id="ref-IEAGulfOfAmerica" class="csl-entry">
 
-Siple, M. C., Szalay, P. G. von, Raring, N. W., Dowlin, A. N., and
-Riggle, B. C. (2024). *Data report: 2023 gulf of alaska bottom trawl
-survey* (NOAA Tech. Memo. AFSC processed report; 2024-09). U.S. Dep.
-Commer. <https://doi.org/10.25923/gbb1-x748>
-
-</div>
-
-<div id="ref-GOA2018" class="csl-entry">
-
-Von Szalay, P. G., and Raring, N. W. (2018). *Data report: 2017
-<span class="nocase">Gulf of Alaska</span> bottom trawl survey* (NOAA
-Tech. Memo. NMFS-AFSC-374). U.S. Dep. Commer.
-<https://doi.org/10.7289/V5/TM-AFSC-374>
+Fisheries, N. (2025c). Gulf of america reports \| integrated ecosystem
+assessment. In *NOAA*.
+<https://www.integratedecosystemassessment.noaa.gov/regions/gulf-mexico/gulf-mexico-ecosystem-status-reports#gulf-of-mexico-ecosystem-status-report>
 
 </div>
 
-<div id="ref-AI2022" class="csl-entry">
+<div id="ref-IEAHawaii" class="csl-entry">
 
-Von Szalay, P. G., Raring, N. W., Siple, M. C., Dowlin, A. N., Riggle,
-B. C., and Laman, E. A. and. (2023). *Data report: 2022 Aleutian Islands
-bottom trawl survey* (AFSC Processed Rep. No. 2023-07; p. 230). U.S.
-Dep. Commer. <https://doi.org/10.25923/85cy-g225>
+Fisheries, N. (2025d). Hawai’i reports \| integrated ecosystem
+assessment. In *NOAA*.
+<https://www.integratedecosystemassessment.noaa.gov/regions/hawaii/hawaii-ecosystem-status-reports>
+
+</div>
+
+<div id="ref-EIANortheast" class="csl-entry">
+
+Fisheries, N. (2025e). Northeast US reports \| integrated ecosystem
+assessment. In *NOAA*.
+<https://www.integratedecosystemassessment.noaa.gov/regions/northeast/northeast-ecosystem-status-reports>
+
+</div>
+
+<div id="ref-IEASoutheast" class="csl-entry">
+
+Fisheries, N. (2025f). Southeast US reports \| integrated ecosystem
+assessment. In *NOAA*.
+<https://www.integratedecosystemassessment.noaa.gov/regions/gulf-mexico/south-atlantic-ecosystem-status-report>
 
 </div>
 
@@ -524,40 +532,6 @@ website](https://www.fisheries.noaa.gov/alaska/science-data/alaska-fisheries-sci
 
 **From suggested citations**
 
-The {trawllight} created by
-[@sean-rohan-NOAA](https://github.com/sean-rohan-NOAA) has a built in
-citation that can be cited like below.
-
-To find the citation:
-
-``` r
-require(remotes)
-remotes::install_github("afsc-gap-products/trawllight")
-```
-
-To use the citation:
-
-``` r
-library(trawllight)
-utils::citation("trawllight")
-```
-
-    FALSE To cite package 'trawllight' in publications use:
-    FALSE 
-    FALSE   Rohan S, Laman N (2024). _trawllight: Derive apparent optical properties from trawl-mounted light sensors_. R package version 3.2.0, commit
-    FALSE   240ac9594c6817266159271cc63bf57dec219fa4, <https://github.com/afsc-gap-products/trawllight>.
-    FALSE 
-    FALSE A BibTeX entry for LaTeX users is
-    FALSE 
-    FALSE   @Manual{,
-    FALSE     title = {trawllight: Derive apparent optical properties from trawl-mounted light
-    FALSE sensors},
-    FALSE     author = {Sean Rohan and Ned Laman},
-    FALSE     year = {2024},
-    FALSE     note = {R package version 3.2.0, commit 240ac9594c6817266159271cc63bf57dec219fa4},
-    FALSE     url = {https://github.com/afsc-gap-products/trawllight},
-    FALSE   }
-
 **From Zenodo**
 
 For packages not on CRAN, package builders can use
@@ -617,11 +591,11 @@ head(PKG)
     FALSE   Package      Version
     FALSE   <chr>        <chr>  
     FALSE 1 abind        1.4-8  
-    FALSE 2 akfingapdata 0.1.0  
-    FALSE 3 akgfmaps     3.5.3  
-    FALSE 4 antiword     1.3.4  
-    FALSE 5 askpass      1.2.1  
-    FALSE 6 assertthat   0.2.1
+    FALSE 2 adehabitatMA 0.3.17 
+    FALSE 3 akfingapdata 0.1.0  
+    FALSE 4 akgfmaps     4.0.3  
+    FALSE 5 antiword     1.3.4  
+    FALSE 6 askpass      1.2.1
 
 Here is how the user can find all of the packages ever installed on the
 local computer
@@ -679,10 +653,8 @@ include:
 
 If you see that the data, product, or metadata can be improved, you are
 invited to create a [pull
-request](https://github.com/afsc-gap-products/citations/pulls), [submit
-an issue to the GitHub
-organization](https://github.com/afsc-gap-products/data-requests/issues),
-or [submit an issue to the code’s
+request](https://github.com/afsc-gap-products/citations/pulls), or
+[submit an issue to the code’s
 repository](https://github.com/afsc-gap-products/citations/issues).
 
 ## R Version Metadata
@@ -691,7 +663,7 @@ repository](https://github.com/afsc-gap-products/citations/issues).
 sessionInfo()
 ```
 
-    FALSE R version 4.4.1 (2024-06-14 ucrt)
+    FALSE R version 4.4.3 (2025-02-28 ucrt)
     FALSE Platform: x86_64-w64-mingw32/x64
     FALSE Running under: Windows 10 x64 (build 19045)
     FALSE 
@@ -699,8 +671,7 @@ sessionInfo()
     FALSE 
     FALSE 
     FALSE locale:
-    FALSE [1] LC_COLLATE=English_United States.utf8  LC_CTYPE=English_United States.utf8    LC_MONETARY=English_United States.utf8 LC_NUMERIC=C                          
-    FALSE [5] LC_TIME=English_United States.utf8    
+    FALSE [1] LC_COLLATE=English_United States.utf8  LC_CTYPE=English_United States.utf8    LC_MONETARY=English_United States.utf8 LC_NUMERIC=C                           LC_TIME=English_United States.utf8    
     FALSE 
     FALSE time zone: America/Los_Angeles
     FALSE tzcode source: internal
@@ -709,15 +680,12 @@ sessionInfo()
     FALSE [1] stats     graphics  grDevices utils     datasets  methods   base     
     FALSE 
     FALSE other attached packages:
-    FALSE [1] trawllight_3.2.0 ggplot2_3.5.1    janitor_2.2.0    readr_2.1.5      here_1.0.1       magrittr_2.0.3   dplyr_1.1.4      tidyr_1.3.1     
+    FALSE [1] janitor_2.2.1  readr_2.1.5    here_1.0.1     magrittr_2.0.3 dplyr_1.1.4    tidyr_1.3.1   
     FALSE 
     FALSE loaded via a namespace (and not attached):
-    FALSE  [1] gtable_0.3.6      compiler_4.4.1    tidyselect_1.2.1  stringr_1.5.1     snakecase_0.11.1  scales_1.3.0      yaml_2.3.10       fastmap_1.2.0    
-    FALSE  [9] R6_2.5.1          generics_0.1.3    knitr_1.48        readtext_0.91     tibble_3.2.1      munsell_0.5.1     rprojroot_2.0.4   lubridate_1.9.3  
-    FALSE [17] pillar_1.9.0      tzdb_0.4.0        rlang_1.1.4       utf8_1.2.4        stringi_1.8.4     xfun_0.47         timechange_0.3.0  cli_3.6.3        
-    FALSE [25] withr_3.0.2       grid_4.4.1        digest_0.6.37     rstudioapi_0.17.1 hms_1.1.3         lifecycle_1.0.4   vctrs_0.6.5       evaluate_1.0.1   
-    FALSE [33] glue_1.7.0        data.table_1.16.2 colorspace_2.1-1  fansi_1.0.6       rmarkdown_2.28    purrr_1.0.2       httr_1.4.7        tools_4.4.1      
-    FALSE [41] pkgconfig_2.0.3   htmltools_0.5.8.1
+    FALSE  [1] compiler_4.4.3    tinytex_0.56      tidyselect_1.2.1  xml2_1.3.6        stringr_1.5.1     snakecase_0.11.1  yaml_2.3.10       fastmap_1.2.0     R6_2.6.1          generics_0.1.3    curl_6.2.1        knitr_1.49        readtext_0.91     tibble_3.2.1      rprojroot_2.0.4   lubridate_1.9.4  
+    FALSE [17] pillar_1.10.1     tzdb_0.4.0        rlang_1.1.5       utf8_1.2.4        stringi_1.8.4     xfun_0.50         timechange_0.3.0  cli_3.6.3         digest_0.6.37     rstudioapi_0.17.1 hms_1.1.3         lifecycle_1.0.4   vctrs_0.6.5       evaluate_1.0.3    glue_1.8.0        data.table_1.16.4
+    FALSE [33] rmarkdown_2.29    purrr_1.0.2       httr_1.4.7        tools_4.4.3       pkgconfig_2.0.3   htmltools_0.5.8.1
 
 ## NOAA README
 
