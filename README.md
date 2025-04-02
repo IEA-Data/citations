@@ -1,6 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# [AFSC RACE GAP Citations Resource](https://github.com/afsc-gap-products/citations) <img src="https://avatars.githubusercontent.com/u/91760178?s=96&amp;v=4" alt="Logo." align="right" width="139" height="139"/>
+# [IEA Citations](https://github.com/afsc-gap-products/citations) <img src="https://avatars.githubusercontent.com/u/186961204?s=200&v=4" alt="Logo." align="right" width="139" height="139"/>
 
 The scripts therein reproducibly produce our citations for our data,
 annual data reports, presentations, and other outreach documents.

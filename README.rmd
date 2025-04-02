@@ -13,7 +13,7 @@ link_repo <- "https://github.com/afsc-gap-products/citations"
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# [AFSC RACE GAP Citations Resource](`r link_repo`) <img src="https://avatars.githubusercontent.com/u/91760178?s=96&amp;v=4" alt="Logo." align="right" width="139" height="139"/>
+# [IEA Citations](`r link_repo`) <img src="https://avatars.githubusercontent.com/u/186961204?s=200&v=4" alt="Logo." align="right" width="139" height="139"/>
 
 The scripts therein reproducibly produce our citations for our data, annual data reports, presentations, and other outreach documents.  
 
